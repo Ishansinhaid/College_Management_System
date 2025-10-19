@@ -51,3 +51,24 @@ A comprehensive MERN stack-based College Management System that helps manage aca
 - Node.js
 - MongoDB
 - npm
+# Start backend server (from backend directory)
+npm run dev
+
+# Start frontend server (from frontend directory)
+npm start
+```
+
+## Initial Setup
+
+1. Create an admin account using the seeder:
+
+```bash
+cd backend
+npm run seed
+```
+
+This will create a default admin account with the following credentials:
+
+- Employee ID: 123456
+- Password: admin123
+- Email: admin@gmail.com
